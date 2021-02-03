@@ -6,9 +6,7 @@ function Product({id,  title, image, price, rating}) {
 
     const [{ basket }, dispatch] = useStateValue();
 
-    console.log("this is the basket >>" , basket.reduce(function (result, price){
-        return result+ price;
-    }, 0))
+    
 
         const addToBasket = () => {
 
